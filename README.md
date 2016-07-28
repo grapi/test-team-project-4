@@ -33,7 +33,7 @@ $ git clone https://github.com/platworkshop/test-team-project-4.git
 $ git pull
 
 # can push: 개발 환경에서 `git push` 할 수 있는가
-$ touch `whoami`.txt
+$ echo 'test' >> `whoami`.txt
 $ git add .
 $ git commit -m 'test'
 $ git push origin master
